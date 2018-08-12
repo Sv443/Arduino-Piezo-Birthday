@@ -43,7 +43,7 @@ void setup(){
 }
 
 void playmusic(){
-  for (int thisNote = 0; thisNote < 25; thisNote++) { // iterate through the arrays 26 times
+  for (int thisNote = 0; thisNote < 25; thisNote++) { // iterate through the arrays 25 times
 
     int noteDuration = 1000 / noteDurations[thisNote]; // get the correct note durations
     tone(pinpiezo, melody[thisNote], noteDuration); // start the sound with the specified frequency and duration on the specified piezo pin
